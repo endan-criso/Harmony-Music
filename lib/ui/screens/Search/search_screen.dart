@@ -82,7 +82,7 @@ class SearchScreen extends StatelessWidget {
                       },
                       autofocus: settingsScreenController
                           .isBottomNavBarEnabled.isFalse,
-                      cursorColor: Theme.of(context).textTheme.bodySmall!.color,
+                      cursorColor: Theme.of(context).colorScheme.primary,
                       decoration: InputDecoration(
                           contentPadding: const EdgeInsets.only(left: 5),
                           focusColor: Colors.white,
